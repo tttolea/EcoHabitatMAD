@@ -10,12 +10,27 @@ The primary aim of this project is to gamify and raise environmental awareness b
 
 While there are many similar tracking applications, EcoHabitat stands out due to its real-time OpenWeather API integration and offline local SQLite caching for field operations in remote areas.
 
-## Features
-**Functional Features:**
-* Live ecosystem simulation based on environmental metrics.
-* Interactive OpenStreetMap with live GPS geolocation.
-* Real-time weather data integration for accurate tracking.
-* Field log capturing and exporting to CSV.
+## Screenshots and Navigation
+
+![Dashboard](images/dashboard.png)
+*Dashboard screen: Ecosystem health, Live OpenWeather API data, and Anomaly triggers.*
+
+![Field Map](images/map.png)
+*Map screen: Live OpenStreetMap, GPS geolocation, and manual field logging.*
+
+![Rank Score](images/ranking.png)
+*Ranking screen: Historgit commit -m "Update README with screenshots, video, and code references"y of all field logs and CSV export functionality.*
+
+![Config Panel](images/settings.png)
+*Settings screen: SharedPreferences for inspector name and API token.*
+
+**Technical Features:**
+* Persistence in SQLite (Room-equivalent for Flutter) to store historical logs. Ref: `lib/db/database_helper.dart`
+* Persistence in CSV files (export and share via `share_plus`). Ref: `lib/screens/ranking_screen.dart`
+* Firebase Authentication (Email/Password registration). Ref: `lib/screens/login_screen.dart`
+* Maps integration via `flutter_map` and OpenStreetMap. Ref: `lib/screens/map_screen.dart`
+* External RESTful API usage (OpenWeather API). Ref: `lib/screens/dashboard_screen.dart`
+* Sensors: Live GPS coordinates tracking via `geolocator`. Ref: `lib/screens/map_screen.dart`
 
 **Technical Features:**
 * Persistence in SQLite (Room-equivalent for Flutter) to store historical logs.
