@@ -10,6 +10,9 @@ The primary aim of this project is to gamify and raise environmental awareness b
 
 While there are many similar tracking applications, EcoHabitat stands out due to its real-time OpenWeather API integration and offline local SQLite caching for field operations in remote areas.
 
+## 60 second demo
+https://www.youtube.com/shorts/Oqu96DE5onE
+
 ## Screenshots and Navigation
 
 ![Dashboard](images/dashboard.png)
