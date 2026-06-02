@@ -1,7 +1,7 @@
 # EcoHabitat Reserve Operations Center
 
-**Workspace:** [Insert your UPM Sharepoint or Google Drive link here]  
-**Repository:** [Insert your GitHub URL here once pushed]
+
+
 
 ## Description
 This application has been developed to assist environmental inspectors with logging, tracking, and simulating ecological reserves. 
